@@ -72,7 +72,6 @@ _signup = (account,password,send)=>
         reset = captcha resetPassword
         send = => reset(account, password)
         r = await send()
-
         # 返回的值可能是已登录
         if _user r, account
           return false
