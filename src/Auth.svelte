@@ -103,7 +103,6 @@ signup = (e)=>
   return
 
 signin = (e)=>
-  console.log {e}
   if up
     e.preventDefault()
     up = undefined
@@ -120,7 +119,7 @@ resetPassword = =>
     tip
     account
     password
-    =>
+    (e)=>
       account = e.account
       password = e.password
       return

@@ -6,7 +6,7 @@
   e.account = account
   e.password = password
   e.next = =>
-    next?()
+    next?(e)
     box.close()
     return
   return
