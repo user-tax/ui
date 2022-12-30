@@ -103,6 +103,7 @@ signup = (e)=>
   return
 
 signin = (e)=>
+  console.log {e}
   if up
     e.preventDefault()
     up = undefined
