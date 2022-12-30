@@ -1,11 +1,11 @@
 #!/usr/bin/env coffee
 
-> ../../gen/i18n.js > MAIL CREATE_ACCOUNT NAME RESET_PASSWORD USED
+> ../../gen/i18n.js > MAIL CREATE_ACCOUNT NAME RESET_PASSWORD USED SET_DONE
   ./captcha.js
   ../../lib/SDK.js
   ../../utax/On.js
   ../../lib/byTag.js
-  ../../setDone.js
+  ../../alert.js
   ../../Box.js > tagBox
   ../../User.js > userSet
   ../../utax/assign.js
@@ -88,7 +88,9 @@ _signup = (account,password,send)=>
                   r = await resetPassword(account, password, code)
                   if _user r, account
                     box.close()
-                    setDone()
+                    alert(
+                      (I18N)=>I18N[SET_DONE]
+                    )
                     return
                   r
               }
