@@ -6,7 +6,6 @@ export const sdkConf = (...args) => {
 	uMenu();
 	uConf();
 	uIfUser();
-	uSetDone();
 	uAuthMailCode();
 	uResetPassword();
 	uSign();
