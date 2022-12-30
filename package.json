@@ -1,0 +1,78 @@
+{
+  "type": "module",
+  "name": "user.tax",
+  "license": "Apache-2.0",
+  "version": "0.0.2",
+  "exports": {
+    ".": "./lib/index.js",
+    "./*": "./lib/*"
+  },
+  "files": [
+    "lib/*"
+  ],
+  "scripts": {
+    "build": "./build.sh",
+    "prepublishOnly": "./build.sh"
+  },
+  "devDependencies": {
+    "@iuser/kebab": "^0.0.1",
+    "@iuser/node-loader": "^0.0.46",
+    "@iuser/read": "^0.0.5",
+    "@iuser/replace": "^0.0.18",
+    "@iuser/snake": "^0.0.15",
+    "@iuser/svelte-preprocess": "^4.10.53",
+    "@iuser/svelteup": "^2.0.15",
+    "@iuser/u8": "^0.0.8",
+    "@iuser/walk": "^0.0.4",
+    "@iuser/write": "^0.0.7",
+    "@rmw/fsline": "^0.0.1",
+    "@rmw/pool": "^0.0.21",
+    "@rmw/thisdir": "^0.0.2",
+    "@tanishiking/aho-corasick": "^0.0.1",
+    "@u6x/jsext": "^0.0.27",
+    "@user.tax/sdk": "^0.0.40",
+    "autoprefixer": "^10.4.13",
+    "aws-sdk": "^2.1280.0",
+    "base-x": "^4.0.0",
+    "coffee_plus": "^0.0.43",
+    "coffeescript": "^2.7.0",
+    "concurrently": "^7.6.0",
+    "esbuild": "^0.16.10",
+    "eslint-plugin-coffee": "^0.1.15",
+    "eslint-plugin-svelte3": "^4.0.0",
+    "get_default": "^0.0.4",
+    "into-stream": "^7.0.0",
+    "json5": "^2.2.2",
+    "lodash-es": "^4.17.21",
+    "merge-source-map": "^1.1.0",
+    "msgpackr": "^1.8.1",
+    "nanoid": "^4.0.0",
+    "nodemon": "^2.0.20",
+    "postcss": "^8.4.20",
+    "postcss-csso": "^6.0.1",
+    "postcss-plugin-px2em": "^1.0.1",
+    "pug": "^3.0.2",
+    "pug-cli": "1.0.0-alpha6",
+    "stylus": "^0.59.0",
+    "svelte": "^3.55.0",
+    "typed.js": "^2.0.12",
+    "uglify-js": "^3.17.4",
+    "utax": "^0.0.30",
+    "zx": "^7.1.1"
+  },
+  "keywords": [
+    "user system"
+  ],
+  "browserslist": {
+    "production": [
+      ">9%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

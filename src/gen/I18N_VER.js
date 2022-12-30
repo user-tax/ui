@@ -1,0 +1,1 @@
+../../../ui-i18n/gen/I18N_VER.js

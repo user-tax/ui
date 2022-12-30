@@ -1,0 +1,37 @@
+doctype html
+html
+  head
+    meta(charset="UTF-8")
+    meta(
+      content="width=device-width,initial-scale=1.0,shrink-to-fit=no"
+      name="viewport"
+    )
+
+    style.
+      @import "./index.css";
+      @import "../Box.css";
+      @import "../red.css";
+
+  body(style="display: none")
+    main
+      nav
+        a(href="https://user.tax") User.Tax
+        u-menu
+          a
+            i-18n SignIn
+          | /
+          a
+            i-18n.up SignUp
+        u-i18n
+      .auth
+        header
+          b.logo
+          b.org
+            b User.Tax
+            b
+              i-slogan
+        u-sign
+    script(
+      src="https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/typed.js/2.0.12/typed.min.js"
+    )
+    script(src="./index.js" type="module")

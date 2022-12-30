@@ -1,0 +1,8 @@
+bun.lockb
+*.bundled_*.mjs
+svelteup.config.js
+.svelteup/
+node_modules/
+/lib/
+config/*.js
+src/index.js
