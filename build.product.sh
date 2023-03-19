@@ -12,6 +12,6 @@ mkdir -p lib
 
 # esbuild --bundle --allow-overwrite --charset=utf8 --target=chrome110 --outdir=lib lib/index.js
 
-#./sh/minify.coffee.coffee
+./sh/minify.coffee.coffee
 ../styl/build.coffee
 ./sh/compressed.size.coffee
