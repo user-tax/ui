@@ -83,7 +83,7 @@ do =>
   li = li.join('\n')
 
   if varinit.length
-    varinit = 'const '+varinit.join(',')
+    varinit = 'const '+varinit.join(',')+';'
   else
     varinit = ''
   write LIB_INDEX, varinit+li
