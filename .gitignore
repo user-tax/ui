@@ -1,0 +1,15 @@
+.env
+.DS_Store
+bun.lockb
+*.bundled_*.mjs
+svelteup.config.js
+.svelteup/
+node_modules/
+conf/*.js
+src/*
+/lib/
+/dist/
+/i18n/
+/sh/ossLi.mjs
+/src/LANG_NAME.js
+
