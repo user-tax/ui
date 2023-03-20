@@ -24,7 +24,7 @@ specifiers:
   '@u7/walk': ^0.0.10
   '@u7/write': ^0.0.9
   '@u7/zipint': ^0.0.2
-  '@w5/i18n': ^0.0.80
+  '@w5/i18n': ^0.0.82
   autoprefixer: ^10.4.14
   base-x: ^4.0.0
   chalk: ^5.2.0
@@ -36,7 +36,6 @@ specifiers:
   eslint-plugin-coffee: ^0.1.15
   eslint-plugin-svelte3: ^4.0.0
   fs-extra: ^11.1.0
-  get_default: ^0.0.4
   into-stream: ^7.0.0
   json5: ^2.2.3
   lodash-es: ^4.17.21
@@ -85,7 +84,7 @@ devDependencies:
   '@u7/walk': 0.0.10
   '@u7/write': 0.0.9
   '@u7/zipint': 0.0.2
-  '@w5/i18n': 0.0.80
+  '@w5/i18n': 0.0.82
   autoprefixer: 10.4.14_postcss@8.4.21
   base-x: 4.0.0
   chalk: 5.2.0
@@ -97,7 +96,6 @@ devDependencies:
   eslint-plugin-coffee: 0.1.15
   eslint-plugin-svelte3: 4.0.0_svelte@3.57.0
   fs-extra: 11.1.0
-  get_default: 0.0.4
   into-stream: 7.0.0
   json5: 2.2.3
   lodash-es: 4.17.21
@@ -2888,28 +2886,12 @@ packages:
     resolution: {integrity: sha512-4VUVWDvEDNOFQXzeP8uPQ+PStd62cqVM+U85nbyP7DgSTBe2rTN4HDdicEYXHgAMCbZ/mQ1VTcPJWUnFzx5F7Q==}
     dev: true
 
-  /@u7/wasm-set/0.0.9:
-    resolution: {integrity: sha512-BfyfyQsNM8AnZj2hqA2sL0ryABmDEOuDVH9BEhIMSmkIbBTqWLQLxERRmLHch2dSb0uhbebGcogPIocMlQ2LvQ==}
-    dev: true
-
   /@u7/write/0.0.8:
     resolution: {integrity: sha512-cas5IbKVQzbZieMFfo4lEJ3tn4wLme40hXHjkgt2EWuqpklbxFu5DI/eR20whM+XLOz3y+NxVuNXy5zXuRqdIw==}
     dev: true
 
   /@u7/write/0.0.9:
     resolution: {integrity: sha512-50PbebAab1VHZUF49CdP6l60UKJFti081mNnPg5ZcPzAgUlTK0xS9dFNJv30wtBp/h+/AL0/ZOfLpmjjb1/7CA==}
-    dev: true
-
-  /@u7/xxhash3-wasm/0.0.15:
-    resolution: {integrity: sha512-WTvc40TVoqZ2a5Rbql/3VjuGoLsgFod4XRZ0cLgfTfW3UxVYpOOBDLZtYVbJ4fepZIFiN9c/ay1P8RZ7InILwg==}
-    dev: true
-
-  /@u7/yml/0.0.5:
-    resolution: {integrity: sha512-3sSUkEfyhlUOTmU8TBwTg0svM05CYrWFkqokfZdgz2hqxbA0XZr0Al8IpPqxCndcFD2ali9qe2nAJ+JUFQtQGQ==}
-    dependencies:
-      '@u7/read': 0.0.6
-      '@u7/write': 0.0.8
-      js-yaml: 4.1.0
     dev: true
 
   /@u7/zipint/0.0.2:
@@ -2925,25 +2907,28 @@ packages:
       progress: 2.0.3
     dev: true
 
-  /@w5/i18n/0.0.80:
-    resolution: {integrity: sha512-M3eyDcFuRjkE9oiAw/+gBoaV1K90YyTghG/QIv8HHSPbyBK//Hr69rMROkM8i1ONy0UZicKQ76yowbV9ke5z3w==}
+  /@w5/caller_line/0.0.1:
+    resolution: {integrity: sha512-JpKA5fV4NPtyE5pOvG1/z/qLSUOIvONOQhsdaZaBX9LPHQgYmUoteY28XXMpF+HAcIaUZpUFMGxZRU5WXWGJOA==}
+    dev: true
+
+  /@w5/i18n/0.0.82:
+    resolution: {integrity: sha512-OmoQ9eq3A5/b+1Xm5pKlPlx3DeNqyaL4rU/xEQBA6cF480De2RaxC6C0Pn2ho3lNz2qSukyh7JA/831w/msl2w==}
     hasBin: true
     dependencies:
-      '@u6x/jsext': 0.0.27
-      '@u7/read': 0.0.6
-      '@u7/req': 0.0.13
-      '@u7/sleep': 0.0.3
-      '@u7/snake': 0.0.16
-      '@u7/tran': 0.0.4
-      '@u7/u8': 0.0.9
-      '@u7/utf8': 0.0.4
-      '@u7/walk': 0.0.10
-      '@u7/wasm-set': 0.0.9
-      '@u7/write': 0.0.9
-      '@u7/xxhash3-wasm': 0.0.15
-      '@u7/yml': 0.0.5
       '@w5/lang': 0.0.5
+      '@w5/read': 0.0.1
+      '@w5/req': 0.0.1
+      '@w5/sleep': 0.0.1
+      '@w5/snake': 0.0.1
+      '@w5/tran': 0.0.1
       '@w5/trmd': 0.0.16
+      '@w5/u8': 0.0.1
+      '@w5/utf8': 0.0.1
+      '@w5/walk': 0.0.1
+      '@w5/wasm-set': 0.0.1
+      '@w5/write': 0.0.1
+      '@w5/xxhash3-wasm': 0.0.1
+      '@w5/yml': 0.0.1
       chalk: 5.2.0
       cmark-gfm: 0.9.0
       get_default: 0.0.4
@@ -2974,6 +2959,40 @@ packages:
     resolution: {integrity: sha512-Yqs0nTOQvxrEXURkFEbxMKUyxFC0dn9+kQLHsWve2JMLtQfV9xN+NaEgcJj3LqaciwoIDfURjRlitWyVnCXIig==}
     dev: true
 
+  /@w5/read/0.0.1:
+    resolution: {integrity: sha512-v/D6N/2OCOVHzaYHzoD/SmKn7yuvSZ/Kj7/HrPoWZOoPkXciZtzfsDXh+ShVvf5zIel6FwejM+F35pK2lQGIyg==}
+    dev: true
+
+  /@w5/req/0.0.1:
+    resolution: {integrity: sha512-wUkQMMd2V81ntdctVjG1cF7O8fmjHQk89Fv/ivCnfMaYZL9rgLz2tSi/s/PjoqY+zl0ziL2rpncKTDElQlGRQg==}
+    dependencies:
+      '@w5/retry': 0.0.1
+    dev: true
+
+  /@w5/retry/0.0.1:
+    resolution: {integrity: sha512-EO+0hpJ17QZ9JmJLvCInwYHIX15iCyrcuB10nBJ4/8m+CByeuWnTwhiHkChEWQ9c0YRLkw1U8WGYVq48I5KbBg==}
+    dependencies:
+      '@w5/caller_line': 0.0.1
+      '@w5/sleep': 0.0.1
+    dev: true
+
+  /@w5/sleep/0.0.1:
+    resolution: {integrity: sha512-GjLtl9qx0bYhJO9kUIHkkmaApa6Uvqr93sPYg6obAxSR5+OKYtRTqC+fZZ0gMov+TKchNGvZFKSS7slA3BAVPw==}
+    dev: true
+
+  /@w5/snake/0.0.1:
+    resolution: {integrity: sha512-WdUByHJ2YYJ3G7h2HN/YASAB2MffEOs94yNgTPfbbodQgoeDpI2N//HSg1l+h9NyLKWY32VCHi9utEOMZHdsmA==}
+    dev: true
+
+  /@w5/tran/0.0.1:
+    resolution: {integrity: sha512-VQpjwsaKqCxgumCOKOmYhWSPRys1WbfTZx76l7Hr7tJa+vh15tM/vmnMye4U3IcVfTmePvTL2wFA3AKa/JjECw==}
+    dependencies:
+      '@w5/req': 0.0.1
+      http-proxy-agent: 5.0.0
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
   /@w5/trmd/0.0.16:
     resolution: {integrity: sha512-xNvykThhi5Gw6b1KjBbYQR6RRF4tQq24nm3HWsB8AG07RWLrqadmvMTM3whT+V4jRKoCzgBXVKdZ3p4XPtPuXw==}
     dependencies:
@@ -2999,6 +3018,38 @@ packages:
       - sqlite3
       - supports-color
       - tedious
+    dev: true
+
+  /@w5/u8/0.0.1:
+    resolution: {integrity: sha512-1IJecPZlVeTYViGTZF+ZAd+v3S6MGB9LGGC0GHH96tdp36s5EkpZi3d02VzUt7l3okCFyH93QM5U9+GI5ToQhA==}
+    dev: true
+
+  /@w5/utf8/0.0.1:
+    resolution: {integrity: sha512-kJCKQ1zIx1M8NUqDRyLqD6W99ssShYv1twAyWNeZfcJ2/zxVpnRLX3GAtyU6rkmNUnj42aT9paAT4nKHY6hsdw==}
+    dev: true
+
+  /@w5/walk/0.0.1:
+    resolution: {integrity: sha512-+52JzYkbfIujR0gVaOmpd0kytne07iC/HR0e5PuhrA8ugN5yldtI4IAjjpwVIyGsZeMo+pgV37SHUXazMDjDqA==}
+    dev: true
+
+  /@w5/wasm-set/0.0.1:
+    resolution: {integrity: sha512-Gub64e0QrDkN69Jhucq+7N6ieZXrNN4B9VRpBwmCOE+w9Qx7w41k09qSvTLgGj5/60bhxrX7Kjj7UJpLoSXp2g==}
+    dev: true
+
+  /@w5/write/0.0.1:
+    resolution: {integrity: sha512-VyQXX2C3yRqfS7D5B+yCcsR1tvzZ1DzPLi5kugBOe/EeL+LOD3ftFamfik7wQr2TG7XQ7VF0snUpqVLaytwfOA==}
+    dev: true
+
+  /@w5/xxhash3-wasm/0.0.1:
+    resolution: {integrity: sha512-Y8MbBE22xexrynloa1CqrlWP2LNYe3gDSlA8/B5RmagRQrvFcYtj9TWow3V427boHvIIuzKZK+Jq5tEIl5jghw==}
+    dev: true
+
+  /@w5/yml/0.0.1:
+    resolution: {integrity: sha512-ePfJiLsEkP3QZoGACXXQREcHwXBKxzuW5AbLWA8nufC+dtjbE6g/EmLCriz1UrcORLTlp8v0WIa8zj1a6cGnpQ==}
+    dependencies:
+      '@w5/read': 0.0.1
+      '@w5/write': 0.0.1
+      js-yaml: 4.1.0
     dev: true
 
   /abbrev/1.1.1:
